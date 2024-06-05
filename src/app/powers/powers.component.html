@@ -1,1 +1,9 @@
-<p>powers works!</p>
+<h2>All Powers</h2>
+
+<ul class="powers">
+  <li *ngFor="let power of powers">
+    <a>
+      <span class="badge">{{power.id}}</span> {{power.name}} <span></span>
+    </a>
+  </li>
+</ul>
